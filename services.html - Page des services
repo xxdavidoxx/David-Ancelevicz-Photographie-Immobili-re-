@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Nos Services - Photographie Immobilière</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo de l'entreprise">
+    <h1>Nos Services</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="reservation.html">Réservation</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <h2>Photographie Intérieure</h2>
+      <p>Des clichés mettant en valeur l'intérieur de vos biens.</p>
+    </section>
+    <section>
+      <h2>Photographie Extérieure</h2>
+      <p>Des prises de vue professionnelles de l'extérieur de vos propriétés.</p>
+    </section>
+    <section>
+      <h2>Visites Virtuelles</h2>
+      <p>Des visites interactives pour une immersion totale.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Photographie Immobilière</p>
+  </footer>
+</body>
+</html>
