@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Réservation - Photographie Immobilière</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/calendar.js" defer></script>
+  <script src="js/form.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo de l'entreprise">
+    <h1>Réservez une séance photo</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="reservation.html">Réservation</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <h2>Choisissez une date et une heure</h2>
+      <div id="calendar"></div>
+    </section>
+    <section>
+      <h2>Informations de réservation</h2>
+      <form id="reservation-form" method="POST" action="sendmail.php">
+        <label for="prenom">Prénom:</label>
+        <input type="text" id="prenom" name="prenom" required>
+
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="email">Adresse courriel:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telephone">Numéro de téléphone:</label>
+        <input type="tel" id="telephone" name="telephone" required>
+
+        <label for="adresse">Adresse complète:</label>
+        <input type="text" id="adresse" name="adresse" required>
+
+        <label for="ville">Ville:</label>
+        <input type="text" id="ville" name="ville" required>
+
+        <label for="region">Région:</label>
+        <input type="text" id="region" name="region" required>
+
+        <label for="pays">Pays:</label>
+        <input type="text" id="pays" name="pays" required>
+
+        <label for="codepostal">Code postal:</label>
+        <input type="text" id="codepostal" name="codepostal" required>
+
+        <label for="note">Note ou demande particulière:</label>
+        <textarea id="note" name="note"></textarea>
+
+        <button type="submit">Réserver</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Photographie Immobilière</p>
+  </footer>
+</body>
+</html>
